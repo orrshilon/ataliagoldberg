@@ -3,12 +3,15 @@
 ---
 
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=David Libre&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Frank Ruhl Libre&display=swap');
 
 // Our variables
 $base-url: "{{ site.baseurl }}";
 
-$base-font-family: Charter, Georgia, Helvetica, Arial, sans-serif;
-$base-font-size: 14px;
+$base-font-family: David Libre, Georgia, Helvetica, Arial, sans-serif;
+$base-secondary-font-family: Frank Ruhl Libre, Helvetica, Arial, sans-serif;
+$base-font-size: 16px;
 $small-font-size: $base-font-size * 0.875;
 $base-line-height: 1.7;
 

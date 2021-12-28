@@ -1,44 +1,40 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Bay Jekyll Theme
+title: עתליה גולדברג - פסיכותרפיה
 description: >- # this means to ignore newlines until "baseurl:"
   Bay is a minimal Jekyll Theme.
-baseurl: "/bay" # the subpath of the site
-url: "https://eliottvincent.github.io" # the base hostname & protocol for the site
-og_image: /assets/img/profile-pic.jpg
-google_analytics: "UA-121636368-3"
+baseurl: "/ataliagoldberg" # the subpath of the site
+url: "https://shilons.co.il" # the base hostname & protocol for the site
+og_image: /assets/img/profile.jpg
+google_analytics: "UA-44525508-6"
 
 header:
   pages:
-    - name: Home
+    - name: אודות
       slug: /
-    - name: Work
-    - name: Blog
+    - name: שיטת טיפול
+      slug: methods
+    - name: יצירת קשר
+      slug: contact
+  title: עתליה גולדברג
+  subtitle: פסיכותרפיה
 
 footer:
-  show_powered_by: true
+  show_powered_by: false
   contact:
-    - name: Email
-      value: yourmail@domain.com
-      link: mailto:yourmail@domain.com
-    - name: WeChat
-      value: YourWeChatUsername
-      link: "#"
-  follow:
-    - name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - name: RSS
-      link: /feed.xml
+    - icon: fas fa-phone
+      value: "0545616740"
+      link: tel:0545616740
+    - icon: fab fa-whatsapp
+      value: שליחת הודעה
+      link: https://api.whatsapp.com/send?phone=+97254-561-6740&text=
+    - icon: fas fa-map
+      value: שלזינגר 10, תל אביב
+      link: https://www.google.com/maps/place/Shlesinger+St+10,+Tel+Aviv-Yafo
+    - icon: fas fa-envelope
+      value: ataliago@gmail.com
+      link: mailto:ataliago@gmail.com
 
 # Build settings
 markdown: kramdown

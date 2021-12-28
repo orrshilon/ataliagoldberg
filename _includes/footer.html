@@ -2,48 +2,14 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <h4>CONTACT</h4>
+        <h4>יצירת קשר</h4>
 
-        <div class="social-links">
+        <div class="contact-links">
           {% for contact in site.footer.contact %}
-            <div class="social-link contact-links">
-
-              {% assign contact_icon_path = "/assets/img/icons/" | append: contact.name | downcase | append: ".png" | absolute_url %}
-              <img
-                src="{{ contact_icon_path }}"
-                alt="{{ contact.name | downcase }}"
-              />
-              <a href="{{ contact.link }}" id="{{ contact.name | downcase }}-link">
-                {% if contact.value and contact.value != "" and contact.value != nil %}
-                  {{ contact.value }}
-                {% else %}
-                  {{ contact.name }}
-                {% endif %}
-              </a>
-            </div>
-
-          {% endfor %}
-        </div>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <h4>FOLLOW</h4>
-
-        <div class="social-links follow-links">
-          {% for follow in site.footer.follow %}
-            <div class="social-link">
-
-              {% assign follow_icon_path = "/assets/img/icons/" | append: follow.name | downcase | append: ".png" | absolute_url %}
-              <img
-                src="{{ follow_icon_path }}"
-                alt="{{ follow.name | downcase }}"
-              />
-              <a href="{{ follow.link }}">
-                {% if follow.value and follow.value != "" and follow.value != nil %}
-                  {{ follow.value }}
-                {% else %}
-                  {{ follow.name }}
-                {% endif %}
+            <div class="contact-link">
+              <i class="{{ contact.icon }}"></i>
+              <a href="{{ contact.link }}" id="contact-link-link">
+                {{ contact.value }}
               </a>
             </div>
 
@@ -61,5 +27,3 @@
     </div>
   </div>
 </footer>
-
-{% include wechat-widget.html %}

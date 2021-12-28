@@ -33,6 +33,7 @@ body {
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
+  direction: rtl;
 }
 
 /**
@@ -80,7 +81,7 @@ figcaption {
  */
 ul,
 ol {
-  margin-left: $spacing-unit;
+  margin-right: $spacing-unit;
 }
 
 li {
@@ -101,10 +102,6 @@ h5,
 h6 {
   font-weight: 300;
   font-family: "Futura", sans-serif;
-}
-
-h4 {
-  font-size: 12px;
 }
 
 /**
@@ -129,8 +126,8 @@ a {
  */
 blockquote {
   color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
+  border-right: 4px solid $grey-color-light;
+  padding-right: $spacing-unit / 2;
   font-size: 100%;
   letter-spacing: -0.5px;
   font-style: italic;
@@ -161,8 +158,8 @@ pre {
 
   > code {
     border: 0;
-    padding-right: 0;
     padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -172,17 +169,17 @@ pre {
 .wrapper {
   max-width: -webkit-calc(700px - (#{$spacing-unit} * 2));
   max-width:         calc(700px - (#{$spacing-unit} * 2));
-  margin-right: auto;
   margin-left: auto;
-  padding-right: $spacing-unit;
+  margin-right: auto;
   padding-left: $spacing-unit;
+  padding-right: $spacing-unit;
   @extend %clearfix;
 
   @include media-query($on-laptop) {
     max-width: -webkit-calc(800px - (#{$spacing-unit}));
     max-width:         calc(800px - (#{$spacing-unit}));
-    padding-right: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
+    padding-right: $spacing-unit / 2;
   }
 
   position: relative;
