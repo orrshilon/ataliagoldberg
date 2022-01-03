@@ -164,28 +164,6 @@ pre {
 }
 
 /**
- * Wrapper
- */
-.wrapper {
-  max-width: -webkit-calc(700px - (#{$spacing-unit} * 2));
-  max-width:         calc(700px - (#{$spacing-unit} * 2));
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: $spacing-unit;
-  padding-right: $spacing-unit;
-  @extend %clearfix;
-
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(800px - (#{$spacing-unit}));
-    max-width:         calc(800px - (#{$spacing-unit}));
-    padding-left: $spacing-unit / 2;
-    padding-right: $spacing-unit / 2;
-  }
-
-  position: relative;
-}
-
-/**
  * Clearfix
  */
 %clearfix {

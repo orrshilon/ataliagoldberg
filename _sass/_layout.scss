@@ -46,6 +46,14 @@
     padding-right: 6px;
     font-family: sans-serif;
   }
+
+  @include media-query($on-mobile) {
+    font-size: 30px;
+
+    .site-title-subtitle {
+      font-size: 16px;
+    }
+  }
 }
 
 /**
