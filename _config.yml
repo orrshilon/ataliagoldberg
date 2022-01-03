@@ -2,10 +2,10 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 title: עתליה גולדברג - פסיכותרפיה
-description: >- # this means to ignore newlines until "baseurl:"
-  Bay is a minimal Jekyll Theme.
-baseurl: "/ataliagoldberg" # the subpath of the site
-url: "https://shilons.co.il" # the base hostname & protocol for the site
+description: >-
+  נעים להכיר, שמי עתליה גולדברג ואני עובדת סוציאלית קלינית בעלת תואר שני M.S.W מטעם אוניברסיטת בר-אילן.
+baseurl: "" # the subpath of the site
+url: "https://ataliagoldberg.co.il" # the base hostname & protocol for the site
 og_image: /assets/img/profile.jpg
 google_analytics: "UA-44525508-6"
 
@@ -15,13 +15,14 @@ header:
       slug: /
     - name: שיטת טיפול
       slug: methods
+    - name: שאלות נפוצות
+      slug: faq
     - name: יצירת קשר
       slug: contact
   title: עתליה גולדברג
   subtitle: פסיכותרפיה
 
 footer:
-  show_powered_by: false
   contact:
     - icon: fas fa-phone
       value: "0545616740"
@@ -30,8 +31,8 @@ footer:
       value: שליחת הודעה
       link: https://api.whatsapp.com/send?phone=+97254-561-6740&text=
     - icon: fas fa-map
-      value: שלזינגר 10, תל אביב
-      link: https://www.google.com/maps/place/Shlesinger+St+10,+Tel+Aviv-Yafo
+      value: צירלסון 4, תל אביב
+      link: https://www.google.com/maps/place/Zirelson+St+4,+Tel+Aviv-Yafo
     - icon: fas fa-envelope
       value: ataliago@gmail.com
       link: mailto:ataliago@gmail.com

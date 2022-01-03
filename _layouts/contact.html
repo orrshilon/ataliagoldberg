@@ -6,19 +6,14 @@
     {% include header.html %}
 
     <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
-          <img
-            src="{{ page.profile_picture.src | absolute_url }}"
-            alt="{{ page.profile_picture.alt }}"
-            class="profile-pic"
-          />
-
+      <div class="container">
           {{ content }}
-        </div>
+
       </div>
     </div>
-
+<!--
+https://script.google.com/macros/s/AKfycbzKrLo5DAD_AFqLMx9GsgKiW9TeNk9h0vArm47vjRH1LQOv2T_TQChxl9gGfKVPSdV0GQ/exec
+-->
     {% include footer.html %}
 
     {% include foot.html %}

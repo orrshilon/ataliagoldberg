@@ -1,29 +1,20 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <h4>יצירת קשר</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h4 class="footer-heading">יצירת קשר</h4>
 
         <div class="contact-links">
           {% for contact in site.footer.contact %}
-            <div class="contact-link">
-              <i class="{{ contact.icon }}"></i>
-              <a href="{{ contact.link }}" id="contact-link-link">
-                {{ contact.value }}
-              </a>
-            </div>
-
+          <div class="contact-link">
+            <i class="{{ contact.icon }}"></i>
+            <a href="{{ contact.link }}" id="contact-link-link">
+              {{ contact.value }}
+            </a>
+          </div>
           {% endfor %}
         </div>
       </div>
-
-      {% if site.footer.show_powered_by == true %}
-        <div class="footer-col footer-col-3 powered-by">
-          <p>
-            powered by <a href="https://github.com/eliottvincent/bay">Bay</a> | {{ 'now' | date: "%Y" }}
-          </p>
-        </div>
-      {% endif %}
     </div>
   </div>
 </footer>
