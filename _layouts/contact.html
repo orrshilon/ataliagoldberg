@@ -7,15 +7,59 @@
 
     <div class="page-content">
       <div class="container">
-          {{ content }}
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col-8">
+            <div class="row">
+              <div class="col-12">
+                <h2>מוזמנים ליצור קשר</h2>
+                <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzKrLo5DAD_AFqLMx9GsgKiW9TeNk9h0vArm47vjRH1LQOv2T_TQChxl9gGfKVPSdV0GQ/exec">
 
+                  <div class="form-elements">
+                    <fieldset>
+                      <input id="name" name="name" required placeholder="שם*" />
+                    </fieldset>
+
+                    <fieldset>
+                      <input id="email" name="email" type="email" value="" required placeholder="מייל*"/>
+                    </fieldset>
+
+                    <fieldset>
+                      <input id="phone" name="phone" placeholder="טלפון נייד" />
+                    </fieldset>
+
+                    <fieldset>
+                      <textarea id="message" name="message" rows="10" placeholder="הודעה"></textarea>
+                    </fieldset>
+
+                    <fieldset class="honeypot-field" style="display:none;">
+                      <input id="honeypot" type="text" name="honeypot" value="" />
+                    </fieldset>
+
+                    <button class="button-success pure-button button-xlarge">
+                      <i class="fa fa-paper-plane"></i>
+                      שליחה</button>
+                  </div>
+
+                  <div style="display:none" class="thankyou_message">
+                    <h3>תודה רבה על הפניה. אחזור אליך בקרוב.</h3>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                {{ content }}
+              </div>
+            </div>
+          </div>
+          <div class="col-2"></div>
+        </div>
       </div>
     </div>
-<!--
-https://script.google.com/macros/s/AKfycbzKrLo5DAD_AFqLMx9GsgKiW9TeNk9h0vArm47vjRH1LQOv2T_TQChxl9gGfKVPSdV0GQ/exec
--->
     {% include footer.html %}
 
     {% include foot.html %}
+    <script type="text/javascript" src="{{ "/assets/js/form-submission-handler.js" | absolute_url }}"></script>
   </body>
 </html>

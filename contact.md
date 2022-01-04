@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: contact
 ---
 
 
-<p style="font-size: 1.5em;">
-אשמח לשוחח בטלפון 0545616740 
-<br />
-</p>
+## פרטים 
+נייד: 0545616740
+
+מייל: ataliago@gmail.com
+
+כתובת: צירלסון 4, תל אביב
