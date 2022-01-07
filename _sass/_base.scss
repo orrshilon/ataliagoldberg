@@ -36,6 +36,10 @@ body {
   direction: rtl;
 }
 
+b {
+  font-weight: 700;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -185,7 +189,7 @@ pre {
     vertical-align: middle;
 
     path {
-      fill: $grey-color;
+      fill: $brand-color-2;
     }
   }
 }

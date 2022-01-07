@@ -4,11 +4,11 @@ layout: default
 
 <div class="row">
   <div class="col-6">
-    <p style="font-size: 1.2em;">
-    <b>נעים להכיר, שמי עתליה גולדברג</b>
+    <p style="font-size: 1.3em">
+    <b style="color: #EC5858;">נעים להכיר, שמי עתליה גולדברג</b>
     ואני עובדת סוציאלית קלינית בעלת תואר שני MSW מטעם אוניברסיטת בר-אילן.
     </p>
-    <p style="font-size: 1.2em;">
+    <p style="font-size: 1.3em;">
     אני מזמינה אותך לפנות אליי, יחד נצא לדרך של שינוי בעזרת התבוננות פנימה ולמידה משותפת.
     </p>
   </div>
