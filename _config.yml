@@ -12,7 +12,7 @@ google_analytics: "UA-44525508-6"
 header:
   pages:
     - name: אודות
-      slug: /
+      slug: about
     - name: שיטת טיפול
       slug: methods
     - name: שאלות נפוצות

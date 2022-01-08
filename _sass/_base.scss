@@ -193,3 +193,12 @@ pre {
     }
   }
 }
+
+/**
+ * Line Breaks
+ */
+
+hr {
+  margin: $spacing-unit 0;
+  border: 1px solid $grey-color-light;
+}
