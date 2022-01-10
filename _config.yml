@@ -5,7 +5,7 @@ title: עתליה גולדברג - פסיכותרפיה
 description: >-
   נעים להכיר, שמי עתליה גולדברג ואני עובדת סוציאלית קלינית בעלת תואר שני M.S.W מטעם אוניברסיטת בר-אילן.
 baseurl: "" # the subpath of the site
-url: "https://ataliagoldberg.co.il" # the base hostname & protocol for the site
+url: "http://ataliagoldberg.co.il" # the base hostname & protocol for the site
 og_image: /assets/img/profile.jpg
 google_analytics: "UA-44525508-6"
 
